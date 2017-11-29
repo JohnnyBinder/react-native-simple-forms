@@ -1,0 +1,2 @@
+# react-native-simple-forms
+A declarative solution to creating and validating forms in react native applications with customizable styling. The goal is to be able to use the library to quickly prototype applications using the form components without having to waste time on developing your own validation system and to be able to adjust a single style object that themes all components on a given page. Of course, for finer grain control over the styles of individual components, you can supply your own "style object" to a given component to override it's defaults.
