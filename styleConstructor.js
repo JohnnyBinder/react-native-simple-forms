@@ -16,7 +16,7 @@ const defaultStyle = {
 };
 
 export default function createStyle(customStyle={}) {
-  const style = {...defaultStyle, ...customStyle};
+  const style = Object.assign({}, {...defaultStyle}, {...customStyle});
 
   return StyleSheet.create({
     ...style
